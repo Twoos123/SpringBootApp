@@ -45,8 +45,8 @@ Update the application.properties file with your PostgreSQL database details:
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/student
-spring.datasource.username=
-spring.datasource.password=
+spring.datasource.username=masad
+spring.datasource.password=postgres
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
